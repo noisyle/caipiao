@@ -9,3 +9,8 @@ import scrapy
 class AvatarItem(scrapy.Item):
     # define the fields for your item here like:
     image_urls = scrapy.Field()
+
+
+class NicknameItem(scrapy.Item):
+    # define the fields for your item here like:
+    name = scrapy.Field()
