@@ -16,4 +16,3 @@ class CaipiaoItem(scrapy.Item):
     lottery_draw_num2 = scrapy.Field()
     lottery_type = scrapy.Field()
     result_json = scrapy.Field()
-    pass
